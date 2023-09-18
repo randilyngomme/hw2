@@ -4,15 +4,14 @@ include "view-header.php";
 ?>
     <h1>Get Result</h1>
 <?php
-if (isset($_GET['my-name']))
+if (isset($_GET["my-name"]))
 {
 ?>
 <p>The value sent is: </p>
 <?php
-  echo $_GET['my-name'];
+  echo $_GET["my-name"];
 }
-else
-{
+else{
 ?>
 <p>Nothing  was sent to the page</p>
 <?php 
